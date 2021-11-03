@@ -1,6 +1,6 @@
 body{
     background-color: rgb(43, 43, 43);
-    
+
 }
 .heading
 {
@@ -70,6 +70,10 @@ body{
     animation-name: heading-animation;
     animation-duration: 3s;
 }
+.navbar a{
+    text-decoration: none;
+    color:#fff;
+}
 .navbar div{
     position: relative;
     text-align: center;
@@ -81,27 +85,29 @@ body{
     font-size: 20px;
     
 }
-.navbar .home
-{
-    margin-top: 50px;
-    -webkit-transition: margin 0.5s ease-out;
-    -moz-transition: margin 0.5s ease-out;
-    -o-transition: margin 0.5s ease-out;
-}
-.navbar .home:hover{
-
-    cursor:pointer;
-    margin-top: 32px;
-    
-}
 .navbar .about
 {
     margin-top: 50px;
     -webkit-transition: margin 0.5s ease-out;
     -moz-transition: margin 0.5s ease-out;
     -o-transition: margin 0.5s ease-out;
+    
 }
+
 .navbar .about:hover{
+
+    cursor:pointer;
+    margin-top: 32px;
+    
+}
+.navbar .skill
+{
+    margin-top: 50px;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+.navbar .skill:hover{
 
     cursor:pointer;
     margin-top: 32px;
