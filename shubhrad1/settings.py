@@ -19,12 +19,13 @@ SECRET_KEY = 'django-insecure-nqkw(v^!%iu_5(3w+oems^ph&@&%21ziv_z!*umz7+=m1%$0&z
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['shubhrad1-website.herokuapp.com',]
+ALLOWED_HOSTS = ['shubhrad1-website.herokuapp.com']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'pages.apps.PagesConfig',
     'core.apps.CoreConfig',
     'django.contrib.admin',
     'django.contrib.auth',

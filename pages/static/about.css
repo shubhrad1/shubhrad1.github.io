@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(43, 43, 43);
+    color: #fff;
+}
+.heading 
+{
+    text-align: left;
+    display: block;
+
+
+    color: #fff;
+    text-shadow: 0 0 6px #fff;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:60px;
+    
+    margin-left: 60px;
+}
+.content{
+    margin-left:200px;
+    margin-right: 200px;
+    line-height: 25px;
+    text-align: justify;
+}
